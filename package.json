@@ -12,7 +12,7 @@
     "url": "https://github.com/xops/expedition.git"
   },
   "scripts": {
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts --openssl-legacy-provider build && cp build/index.html build/404.html",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test",
     "lint": "tslint -p tsconfig.json",
